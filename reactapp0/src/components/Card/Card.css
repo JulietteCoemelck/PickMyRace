@@ -47,15 +47,15 @@
 
 @media (max-width: 800px){
     .Card{
-        width: fit-content;
+        width: 60vw;
         border-radius: 0.5em;
         margin: 7px 0px;
     }
     .cupImg {
-        height: 20px;
+        height: 30px;
     }
     .circuitImg{
-        height: 65px;
+        height: 70px;
     }
     .circuitCup {
         margin-top: 10px;
