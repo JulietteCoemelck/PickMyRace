@@ -1,0 +1,71 @@
+.Card{
+    background-color: white;
+    width: 450px;
+    height: fit-content;
+    margin: 15px 0px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 4px 4px 10px 
+            rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+}
+
+.circuitImg{
+    height: 127px;
+}
+
+.circuitInfo {
+    text-align: center;
+    width: 100%;
+}
+
+.circuitCup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 0 0 0;
+}
+
+.circuitCup h4{
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cupImg {
+    height: 36px;
+    margin-left: 7px;
+}
+
+.circuitName h3{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    margin: 18px 0 0 0;
+}
+
+@media (max-width: 800px){
+    .Card{
+        width: fit-content;
+        border-radius: 0.5em;
+        margin: 7px 0px;
+    }
+    .cupImg {
+        height: 20px;
+    }
+    .circuitImg{
+        height: 65px;
+    }
+    .circuitCup {
+        margin-top: 10px;
+    }
+    .circuitCup h4{
+        font-size: 11px;
+    }
+    .circuitName h3{
+        font-size: 15px;
+        margin: 5px 5px;
+    }
+}
+

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Blazed';
+  src:url(../public/Blazed.ttf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../public/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url(../public/Inter-Bold.ttf);
+}
+
+h2 {
+  color: white;
+  font-family: 'Inter Bold';
+  font-size: 30px;
+  margin-top: 70px;
+}
+

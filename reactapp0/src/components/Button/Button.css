@@ -1,0 +1,35 @@
+.Button {
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 22px;
+    border-radius: 20px;
+    background: linear-gradient(103.17deg, #FF9505 0.69%, #FD5200 48.96%);
+    background-size: 200% auto;
+    transition: 0.5s;
+    padding: 15px 30px;
+}
+.buttonContent{
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Inter Bold';
+    color: white;
+}
+
+.Button:hover{
+    background-position: right center;
+    cursor: pointer;
+}
+
+.iconButton {
+    transform: rotate(15deg);
+    margin-left: 20px;
+}
+
+@media (max-width: 800px){
+    .buttonContent{
+        font-size: 15px;
+    }
+}

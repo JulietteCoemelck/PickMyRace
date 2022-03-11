@@ -1,0 +1,93 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.consoleChoice{
+    position: relative;
+    color: white;
+    font-family: 'Inter Bold';
+    font-size: 18px;
+    background: linear-gradient(103.17deg, #FF9505 0.69%, #FD5200 48.96%);
+    border-radius: 20px;
+    border: none;
+    height: 55px;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200% auto;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.consoleChoice:hover{
+    background-position: right center;
+    cursor: pointer;
+}
+
+.consolesList{
+    margin-top: 15px;
+    width: 230px;
+    position: absolute;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.consoleItem{
+    font-family: 'Inter Bold';
+    font-size: 18px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.raceNumber {
+    width: 50px;
+    height: 50px;
+    margin: 0 22px 0 22px;
+    border-radius: 20px;
+    background: linear-gradient(103.17deg, #FF9505 0.69%, #FD5200 48.96%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+
+.raceNumber:hover{
+    background-position: right center;
+    cursor: pointer;
+}
+
+.raceInput {
+    text-align: center;
+    color: #31393C;
+    font-family: 'Inter';
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 5px transparent;
+    background: 
+        linear-gradient(white 0 0) padding-box,
+        linear-gradient(94.32deg, #FD5200 48.34%, #FF9505 99.03%) border-box;
+}
+
+.error{
+    color: #FD5200;
+    font-family: 'Inter Bold';
+}
+
+@media (max-width: 800px){
+    h2{
+       font-size: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.Header{
+  text-align: center;
+  cursor: pointer;
+}
+
+h1 {
+    font-family: 'Blazed';
+    font-size: 70px;
+    background: #FD5200;
+    background: -webkit-linear-gradient(to bottom, #FD5200 30%, #FF9505 100%);
+    background: -moz-linear-gradient(to bottom, #FD5200 30%, #FF9505 100%);
+    background: linear-gradient(to bottom, #FD5200 30%, #FF9505 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+  }
+  
+.subtitle {
+    margin-top: 0;
+    color: white;
+    font-family: 'Inter';
+    font-size: 18px;
+  }
+
+  @media (max-width: 800px){
+    h1{
+      font-size: 37px;
+    }
+    .subtitle{
+      font-size: 15px;
+    }
+  }

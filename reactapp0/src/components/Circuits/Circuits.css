@@ -1,0 +1,24 @@
+.Circuits {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(103.17deg, #FF9505 0.69%, #FD5200 48.96%);
+    height: fit-content;
+    width: fit-content;
+    padding: 15px 30px;
+}
+@media (max-width: 800px){
+    .list {
+        padding: 13px 20px;
+    }
+}
