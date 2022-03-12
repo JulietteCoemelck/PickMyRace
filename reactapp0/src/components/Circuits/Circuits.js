@@ -26,7 +26,7 @@ export default function Circuits(){
         setCircuitsList(response.aggregate)
     };
 
-     
+
 
     // Redirection Homepage clic logo //
     const [goToHome, setGoToHome] = useState(false);
@@ -44,12 +44,12 @@ export default function Circuits(){
 
             <div className='list'>
                 {circuitsList.map((circuit, i) => (
-                      <Card 
-                      circuitImg={circuit.circuitImg} 
-                      circuitName={circuit.name} 
-                      cupImg={circuit.cupImg} 
-                      cupName={circuit.cupName}
-                      key={i} />
+                    <Card 
+                    circuitImg={circuit.circuitImg} 
+                    circuitName={circuit.name} 
+                    cupImg={circuit.cupImg} 
+                    cupName={circuit.cupName}
+                    key={i} />  
                 ))}
                 
             </div>

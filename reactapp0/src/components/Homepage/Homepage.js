@@ -24,7 +24,7 @@ export default function Homepage(){
         setCourseNumber(1)
     } else if(courseNumber > 48){
         setCourseNumber(48)
-    };
+    }; 
     
     // Fonction bouton + et - //
     const increaseCourseNumber = () => {
@@ -57,7 +57,7 @@ export default function Homepage(){
             "&:hover": {
                 backgroundColor: state.isSelected ? null : state.isFocused ? "#FF9505" :  null,
                 color: state.isSelected ? 'white' : state.isFocused ? 'white' :  null
-              }
+            }
         }),
         control: (styles, state) => ({
             ...styles, 

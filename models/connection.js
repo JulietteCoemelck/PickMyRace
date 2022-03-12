@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
-// const dotenv = require("dotenv");
-// dotenv.config();   
+const dotenv = require("dotenv");
+dotenv.config();   
 
 const BDD_LINK = process.env.BDD_LINK;
 
