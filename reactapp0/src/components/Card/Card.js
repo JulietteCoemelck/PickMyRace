@@ -8,10 +8,6 @@ export default function Card(props){
     const cupImg = require(`../media/cupImg/${props.cupImg}`);
     const cupName = props.cupName;
 
-    // Get height of circuitInfo //
-    const heightCircuitInfos = document.getElementsByClassName('circuitInfo')
-    console.log({heightCircuitInfos})
-
 
     return (
         <div className='Card' onClick={() => setCircuitStyle(!circuitStyle)}>
