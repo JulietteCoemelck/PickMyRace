@@ -19,7 +19,9 @@
 .circuitInfo {
     text-align: center;
     width: 100%;
-    /* margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .circuitCup{
@@ -31,6 +33,7 @@
 
 .circuitCup h4{
     margin: 0;
+    padding: 0;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
@@ -71,9 +74,10 @@
     }
     .cupImg {
         height: 40px;
+        margin-right: 5px;
     }
-    .circuitImg{
-        height: 100px;
+    .circuitInfo {
+
     }
     .circuitCup {
         margin-top: 10px;
@@ -82,11 +86,9 @@
         font-size: 15px;
     }
     .circuitName h3{
-        font-size: 20px;
+        font-size: 17px;
         margin: 5px 0 15px 0;
     }
-    .circuitDone{
-        height: 100px;
-    }
+    
 }
 

@@ -26,8 +26,6 @@ export default function Circuits(){
         setCircuitsList(response.aggregate)
     };
 
-
-
     // Redirection Homepage clic logo //
     const [goToHome, setGoToHome] = useState(false);
 
