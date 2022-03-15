@@ -8,10 +8,6 @@ export default function Card(props){
     const cupImg = require(`../media/cupImg/${props.cupImg}`);
     const cupName = props.cupName;
 
-    useEffect(() => {
-        return () => { console.log("Card is destroyed")} ;
-    }, [])
-
     return (
         <div className='Card' onClick={() => setCircuitStyle(!circuitStyle)}>
             <img src={circuitImg} alt='' className='circuitImg'/>
