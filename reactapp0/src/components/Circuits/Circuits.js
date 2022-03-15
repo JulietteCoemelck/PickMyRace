@@ -52,7 +52,7 @@ export default function Circuits(){
                 
             </div>
 
-            <div style={{width: 'fit-content'}} onClick={() => fetchCircuits()} >
+            <div style={{width: 'fit-content'}} onClick={() => {fetchCircuits(); setCircuitsList([])}} >
                 <Button name='Regénérer'/>
             </div>
             

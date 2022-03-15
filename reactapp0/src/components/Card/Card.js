@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Card.css';
 
 export default function Card(props){
@@ -8,6 +8,9 @@ export default function Card(props){
     const cupImg = require(`../media/cupImg/${props.cupImg}`);
     const cupName = props.cupName;
 
+    useEffect(() => {
+        return () => { console.log("Card is destroyed")} ;
+    }, [])
 
     return (
         <div className='Card' onClick={() => setCircuitStyle(!circuitStyle)}>
